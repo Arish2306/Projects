@@ -1,0 +1,2599 @@
+{
+    "restaurants": [
+        {
+            "id": "101",
+            "info": {
+                "id": "101",
+                "name": "Spice Garden",
+                "cloudinaryImageId": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5",
+                "locality": "T Nagar",
+                "areaName": "Chennai",
+                "costForTwo": 40000,
+                "costForTwoMessage": "₹400 FOR TWO",
+                 "promoted":true,
+                "cuisines": [
+                    "South Indian",
+                    "Biryani",
+                    "Chinese"
+                ],
+                "avgRating": 4.5,
+                "totalRatingsString": "10K+",
+                "sla": {
+                    "deliveryTime": 25,
+                    "lastMileTravel": 2.5,
+                    "slaString": "25 mins"
+                }
+            },
+            "menu": {
+                "cards": [
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Recommended",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "R1",
+                                                "name": "Special Chicken Biryani",
+                                                "description": "Chef special aromatic dum biryani with rich spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+                                                "price": 25900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "R2",
+                                                "name": "Paneer Butter Masala",
+                                                "description": "Creamy tomato gravy with soft paneer cubes.",
+                                                "imageId": "https://images.unsplash.com/photo-1601050690597-df0568f70950",
+                                                "price": 19900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Starters",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "S1",
+                                                "name": "Chicken 65",
+                                                "description": "Spicy deep fried chicken tossed with curry leaves.",
+                                                "imageId": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec",
+                                                "price": 17900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "S2",
+                                                "name": "Gobi Manchurian",
+                                                "description": "Crispy cauliflower in Indo-Chinese sauce.",
+                                                "imageId": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7",
+                                                "price": 14900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Biryani",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "B1",
+                                                "name": "Mutton Biryani",
+                                                "description": "Slow cooked basmati rice with tender mutton pieces.",
+                                                "imageId": "https://images.unsplash.com/photo-1628294895950-9805252327bc",
+                                                "price": 29900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "B2",
+                                                "name": "Veg Biryani",
+                                                "description": "Flavorful vegetable biryani cooked with spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a",
+                                                "price": 18900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Meals",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "M1",
+                                                "name": "South Indian Meals",
+                                                "description": "Rice with sambar, rasam, poriyal and curd.",
+                                                "imageId": "https://images.unsplash.com/photo-1626776876729-bab4369d6c6d",
+                                                "price": 15900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "M2",
+                                                "name": "Chicken Meals",
+                                                "description": "Full meals with chicken curry and sides.",
+                                                "imageId": "https://images.unsplash.com/photo-1625944525909-6f8b55d1a2f1",
+                                                "price": 21900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Grills",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "G1",
+                                                "name": "Grilled Chicken",
+                                                "description": "Juicy grilled chicken marinated in spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1544025162-d76694265947",
+                                                "price": 22900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "G2",
+                                                "name": "Grilled Paneer",
+                                                "description": "Spicy grilled paneer cubes with herbs.",
+                                                "imageId": "https://images.unsplash.com/photo-1604908176997-431c3b21e4d7",
+                                                "price": 19900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Pizza",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "P1",
+                                                "name": "Veg Supreme Pizza",
+                                                "description": "Loaded with fresh vegetables and mozzarella cheese.",
+                                                "imageId": "https://images.unsplash.com/photo-1601924928584-9a6e70f5f1d4",
+                                                "price": 24900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "P2",
+                                                "name": "Chicken Pepperoni Pizza",
+                                                "description": "Cheesy pizza topped with chicken pepperoni.",
+                                                "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65",
+                                                "price": 27900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Desserts",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "D1",
+                                                "name": "Gulab Jamun",
+                                                "description": "Soft milk balls soaked in sugar syrup.",
+                                                "imageId": "https://images.unsplash.com/photo-1625944525909-6f8b55d1a2f1",
+                                                "price": 8900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "D2",
+                                                "name": "Chocolate Brownie",
+                                                "description": "Rich chocolate brownie served warm.",
+                                                "imageId": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c",
+                                                "price": 11900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "102",
+            "info": {
+                "id": "102",
+                "name": "Royal Biryani House",
+                "cloudinaryImageId": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4",
+                "locality": "Velachery",
+                "areaName": "Chennai",
+                "costForTwo": 50000,
+                "costForTwoMessage": "₹500 FOR TWO",
+                "cuisines": [
+                    "Biryani",
+                    "North Indian",
+                    "Grills"
+                ],
+                "avgRating": 4.3,
+                "totalRatingsString": "8K+",
+                "sla": {
+                    "deliveryTime": 30,
+                    "lastMileTravel": 3.1,
+                    "slaString": "30 mins"
+                }
+            },
+            "menu": {
+                "cards": [
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Recommended",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "R1",
+                                                "name": "Special Chicken Biryani",
+                                                "description": "Chef special aromatic dum biryani with rich spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+                                                "price": 25900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "R2",
+                                                "name": "Paneer Butter Masala",
+                                                "description": "Creamy tomato gravy with soft paneer cubes.",
+                                                "imageId": "https://images.unsplash.com/photo-1601050690597-df0568f70950",
+                                                "price": 19900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Starters",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "S1",
+                                                "name": "Chicken 65",
+                                                "description": "Spicy deep fried chicken tossed with curry leaves.",
+                                                "imageId": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec",
+                                                "price": 17900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "S2",
+                                                "name": "Gobi Manchurian",
+                                                "description": "Crispy cauliflower in Indo-Chinese sauce.",
+                                                "imageId": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7",
+                                                "price": 14900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Biryani",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "B1",
+                                                "name": "Mutton Biryani",
+                                                "description": "Slow cooked basmati rice with tender mutton pieces.",
+                                                "imageId": "https://images.unsplash.com/photo-1628294895950-9805252327bc",
+                                                "price": 29900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "B2",
+                                                "name": "Veg Biryani",
+                                                "description": "Flavorful vegetable biryani cooked with spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a",
+                                                "price": 18900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Meals",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "M1",
+                                                "name": "South Indian Meals",
+                                                "description": "Rice with sambar, rasam, poriyal and curd.",
+                                                "imageId": "https://images.unsplash.com/photo-1626776876729-bab4369d6c6d",
+                                                "price": 15900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "M2",
+                                                "name": "Chicken Meals",
+                                                "description": "Full meals with chicken curry and sides.",
+                                                "imageId": "https://images.unsplash.com/photo-1625944525909-6f8b55d1a2f1",
+                                                "price": 21900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Grills",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "G1",
+                                                "name": "Grilled Chicken",
+                                                "description": "Juicy grilled chicken marinated in spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1544025162-d76694265947",
+                                                "price": 22900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "G2",
+                                                "name": "Grilled Paneer",
+                                                "description": "Spicy grilled paneer cubes with herbs.",
+                                                "imageId": "https://images.unsplash.com/photo-1604908176997-431c3b21e4d7",
+                                                "price": 19900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Pizza",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "P1",
+                                                "name": "Veg Supreme Pizza",
+                                                "description": "Loaded with fresh vegetables and mozzarella cheese.",
+                                                "imageId": "https://images.unsplash.com/photo-1601924928584-9a6e70f5f1d4",
+                                                "price": 24900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "P2",
+                                                "name": "Chicken Pepperoni Pizza",
+                                                "description": "Cheesy pizza topped with chicken pepperoni.",
+                                                "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65",
+                                                "price": 27900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Desserts",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "D1",
+                                                "name": "Gulab Jamun",
+                                                "description": "Soft milk balls soaked in sugar syrup.",
+                                                "imageId": "https://images.unsplash.com/photo-1625944525909-6f8b55d1a2f1",
+                                                "price": 8900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "D2",
+                                                "name": "Chocolate Brownie",
+                                                "description": "Rich chocolate brownie served warm.",
+                                                "imageId": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c",
+                                                "price": 11900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "103",
+            "info": {
+                "id": "103",
+                "name": "Urban Tandoor",
+                "cloudinaryImageId": "https://images.unsplash.com/photo-1552566626-52f8b828add9",
+                "locality": "Anna Nagar",
+                "areaName": "Chennai",
+                "costForTwo": 45000,
+                "costForTwoMessage": "₹450 FOR TWO",
+                "promoted":true,
+                "cuisines": [
+                    "North Indian",
+                    "Biryani",
+                    "Grills"
+                ],
+                "avgRating": 4.4,
+                "totalRatingsString": "7K+",
+                "sla": {
+                    "deliveryTime": 28,
+                    "lastMileTravel": 2.8,
+                    "slaString": "28 mins"
+                }
+            },
+            "menu": {
+                 "cards": [
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Recommended",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "R1",
+                                                "name": "Special Chicken Biryani",
+                                                "description": "Chef special aromatic dum biryani with rich spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+                                                "price": 25900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "R2",
+                                                "name": "Paneer Butter Masala",
+                                                "description": "Creamy tomato gravy with soft paneer cubes.",
+                                                "imageId": "https://images.unsplash.com/photo-1601050690597-df0568f70950",
+                                                "price": 19900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Starters",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "S1",
+                                                "name": "Chicken 65",
+                                                "description": "Spicy deep fried chicken tossed with curry leaves.",
+                                                "imageId": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec",
+                                                "price": 17900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "S2",
+                                                "name": "Gobi Manchurian",
+                                                "description": "Crispy cauliflower in Indo-Chinese sauce.",
+                                                "imageId": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7",
+                                                "price": 14900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Biryani",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "B1",
+                                                "name": "Mutton Biryani",
+                                                "description": "Slow cooked basmati rice with tender mutton pieces.",
+                                                "imageId": "https://images.unsplash.com/photo-1628294895950-9805252327bc",
+                                                "price": 29900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "B2",
+                                                "name": "Veg Biryani",
+                                                "description": "Flavorful vegetable biryani cooked with spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a",
+                                                "price": 18900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Meals",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "M1",
+                                                "name": "South Indian Meals",
+                                                "description": "Rice with sambar, rasam, poriyal and curd.",
+                                                "imageId": "https://images.unsplash.com/photo-1626776876729-bab4369d6c6d",
+                                                "price": 15900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "M2",
+                                                "name": "Chicken Meals",
+                                                "description": "Full meals with chicken curry and sides.",
+                                                "imageId": "https://images.unsplash.com/photo-1625944525909-6f8b55d1a2f1",
+                                                "price": 21900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Grills",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "G1",
+                                                "name": "Grilled Chicken",
+                                                "description": "Juicy grilled chicken marinated in spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1544025162-d76694265947",
+                                                "price": 22900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "G2",
+                                                "name": "Grilled Paneer",
+                                                "description": "Spicy grilled paneer cubes with herbs.",
+                                                "imageId": "https://images.unsplash.com/photo-1604908176997-431c3b21e4d7",
+                                                "price": 19900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Pizza",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "P1",
+                                                "name": "Veg Supreme Pizza",
+                                                "description": "Loaded with fresh vegetables and mozzarella cheese.",
+                                                "imageId": "https://images.unsplash.com/photo-1601924928584-9a6e70f5f1d4",
+                                                "price": 24900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "P2",
+                                                "name": "Chicken Pepperoni Pizza",
+                                                "description": "Cheesy pizza topped with chicken pepperoni.",
+                                                "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65",
+                                                "price": 27900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Desserts",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "D1",
+                                                "name": "Gulab Jamun",
+                                                "description": "Soft milk balls soaked in sugar syrup.",
+                                                "imageId": "https://images.unsplash.com/photo-1625944525909-6f8b55d1a2f1",
+                                                "price": 8900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "D2",
+                                                "name": "Chocolate Brownie",
+                                                "description": "Rich chocolate brownie served warm.",
+                                                "imageId": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c",
+                                                "price": 11900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "104",
+            "info": {
+                "id": "104",
+                "name": "Madras Meals Hub",
+                "cloudinaryImageId": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5",
+                "locality": "Tambaram",
+                "areaName": "Chennai",
+                "costForTwo": 35000,
+                "costForTwoMessage": "₹350 FOR TWO",
+                "cuisines": [
+                    "South Indian",
+                    "Meals",
+                    "Chinese"
+                ],
+                "avgRating": 4.2,
+                "totalRatingsString": "5K+",
+                "sla": {
+                    "deliveryTime": 22,
+                    "lastMileTravel": 1.9,
+                    "slaString": "22 mins"
+                }
+            },
+            "menu": {
+                  "cards": [
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Recommended",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "R1",
+                                                "name": "Special Chicken Biryani",
+                                                "description": "Chef special aromatic dum biryani with rich spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+                                                "price": 25900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "R2",
+                                                "name": "Paneer Butter Masala",
+                                                "description": "Creamy tomato gravy with soft paneer cubes.",
+                                                "imageId": "https://images.unsplash.com/photo-1601050690597-df0568f70950",
+                                                "price": 19900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Starters",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "S1",
+                                                "name": "Chicken 65",
+                                                "description": "Spicy deep fried chicken tossed with curry leaves.",
+                                                "imageId": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec",
+                                                "price": 17900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "S2",
+                                                "name": "Gobi Manchurian",
+                                                "description": "Crispy cauliflower in Indo-Chinese sauce.",
+                                                "imageId": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7",
+                                                "price": 14900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Biryani",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "B1",
+                                                "name": "Mutton Biryani",
+                                                "description": "Slow cooked basmati rice with tender mutton pieces.",
+                                                "imageId": "https://images.unsplash.com/photo-1628294895950-9805252327bc",
+                                                "price": 29900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "B2",
+                                                "name": "Veg Biryani",
+                                                "description": "Flavorful vegetable biryani cooked with spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a",
+                                                "price": 18900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Meals",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "M1",
+                                                "name": "South Indian Meals",
+                                                "description": "Rice with sambar, rasam, poriyal and curd.",
+                                                "imageId": "https://images.unsplash.com/photo-1626776876729-bab4369d6c6d",
+                                                "price": 15900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "M2",
+                                                "name": "Chicken Meals",
+                                                "description": "Full meals with chicken curry and sides.",
+                                                "imageId": "https://images.unsplash.com/photo-1625944525909-6f8b55d1a2f1",
+                                                "price": 21900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Grills",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "G1",
+                                                "name": "Grilled Chicken",
+                                                "description": "Juicy grilled chicken marinated in spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1544025162-d76694265947",
+                                                "price": 22900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "G2",
+                                                "name": "Grilled Paneer",
+                                                "description": "Spicy grilled paneer cubes with herbs.",
+                                                "imageId": "https://images.unsplash.com/photo-1604908176997-431c3b21e4d7",
+                                                "price": 19900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Pizza",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "P1",
+                                                "name": "Veg Supreme Pizza",
+                                                "description": "Loaded with fresh vegetables and mozzarella cheese.",
+                                                "imageId": "https://images.unsplash.com/photo-1601924928584-9a6e70f5f1d4",
+                                                "price": 24900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "P2",
+                                                "name": "Chicken Pepperoni Pizza",
+                                                "description": "Cheesy pizza topped with chicken pepperoni.",
+                                                "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65",
+                                                "price": 27900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Desserts",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "D1",
+                                                "name": "Gulab Jamun",
+                                                "description": "Soft milk balls soaked in sugar syrup.",
+                                                "imageId": "https://images.unsplash.com/photo-1625944525909-6f8b55d1a2f1",
+                                                "price": 8900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "D2",
+                                                "name": "Chocolate Brownie",
+                                                "description": "Rich chocolate brownie served warm.",
+                                                "imageId": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c",
+                                                "price": 11900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "105",
+            "info": {
+                "id": "105",
+                "name": "Pizza Palace",
+                "cloudinaryImageId": "https://images.unsplash.com/photo-1528605248644-14dd04022da1",
+                "locality": "OMR",
+                "areaName": "Chennai",
+                "costForTwo": 60000,
+                "costForTwoMessage": "₹600 FOR TWO",
+                 "promoted":true,
+                "cuisines": [
+                    "Pizza",
+                    "Italian",
+                    "Desserts"
+                ],
+                "avgRating": 4.5,
+                "totalRatingsString": "9K+",
+                "sla": {
+                    "deliveryTime": 20,
+                    "lastMileTravel": 2.0,
+                    "slaString": "20 mins"
+                }
+            },
+            "menu": {
+                 "cards": [
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Recommended",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "R1",
+                                                "name": "Special Chicken Biryani",
+                                                "description": "Chef special aromatic dum biryani with rich spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+                                                "price": 25900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "R2",
+                                                "name": "Paneer Butter Masala",
+                                                "description": "Creamy tomato gravy with soft paneer cubes.",
+                                                "imageId": "https://images.unsplash.com/photo-1601050690597-df0568f70950",
+                                                "price": 19900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Starters",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "S1",
+                                                "name": "Chicken 65",
+                                                "description": "Spicy deep fried chicken tossed with curry leaves.",
+                                                "imageId": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec",
+                                                "price": 17900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "S2",
+                                                "name": "Gobi Manchurian",
+                                                "description": "Crispy cauliflower in Indo-Chinese sauce.",
+                                                "imageId": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7",
+                                                "price": 14900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Biryani",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "B1",
+                                                "name": "Mutton Biryani",
+                                                "description": "Slow cooked basmati rice with tender mutton pieces.",
+                                                "imageId": "https://images.unsplash.com/photo-1628294895950-9805252327bc",
+                                                "price": 29900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "B2",
+                                                "name": "Veg Biryani",
+                                                "description": "Flavorful vegetable biryani cooked with spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a",
+                                                "price": 18900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Meals",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "M1",
+                                                "name": "South Indian Meals",
+                                                "description": "Rice with sambar, rasam, poriyal and curd.",
+                                                "imageId": "https://images.unsplash.com/photo-1626776876729-bab4369d6c6d",
+                                                "price": 15900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "M2",
+                                                "name": "Chicken Meals",
+                                                "description": "Full meals with chicken curry and sides.",
+                                                "imageId": "https://images.unsplash.com/photo-1625944525909-6f8b55d1a2f1",
+                                                "price": 21900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Grills",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "G1",
+                                                "name": "Grilled Chicken",
+                                                "description": "Juicy grilled chicken marinated in spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1544025162-d76694265947",
+                                                "price": 22900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "G2",
+                                                "name": "Grilled Paneer",
+                                                "description": "Spicy grilled paneer cubes with herbs.",
+                                                "imageId": "https://images.unsplash.com/photo-1604908176997-431c3b21e4d7",
+                                                "price": 19900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Pizza",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "P1",
+                                                "name": "Veg Supreme Pizza",
+                                                "description": "Loaded with fresh vegetables and mozzarella cheese.",
+                                                "imageId": "https://images.unsplash.com/photo-1601924928584-9a6e70f5f1d4",
+                                                "price": 24900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "P2",
+                                                "name": "Chicken Pepperoni Pizza",
+                                                "description": "Cheesy pizza topped with chicken pepperoni.",
+                                                "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65",
+                                                "price": 27900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Desserts",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "D1",
+                                                "name": "Gulab Jamun",
+                                                "description": "Soft milk balls soaked in sugar syrup.",
+                                                "imageId": "https://images.unsplash.com/photo-1625944525909-6f8b55d1a2f1",
+                                                "price": 8900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "D2",
+                                                "name": "Chocolate Brownie",
+                                                "description": "Rich chocolate brownie served warm.",
+                                                "imageId": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c",
+                                                "price": 11900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "106",
+            "info": {
+                "id": "106",
+                "name": "Grill & Chill",
+                "cloudinaryImageId": "https://images.unsplash.com/photo-1555992336-03a23c7b20ee",
+                "locality": "Adyar",
+                "areaName": "Chennai",
+                "costForTwo": 55000,
+                "costForTwoMessage": "₹550 FOR TWO",
+                "cuisines": [
+                    "BBQ",
+                    "Grills",
+                    "Biryani"
+                ],
+                "avgRating": 4.3,
+                "totalRatingsString": "6K+",
+                "sla": {
+                    "deliveryTime": 30,
+                    "lastMileTravel": 3.3,
+                    "slaString": "30 mins"
+                }
+            },
+            "menu": {
+                 "cards": [
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Recommended",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "R1",
+                                                "name": "Special Chicken Biryani",
+                                                "description": "Chef special aromatic dum biryani with rich spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+                                                "price": 25900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "R2",
+                                                "name": "Paneer Butter Masala",
+                                                "description": "Creamy tomato gravy with soft paneer cubes.",
+                                                "imageId": "https://images.unsplash.com/photo-1601050690597-df0568f70950",
+                                                "price": 19900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Starters",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "S1",
+                                                "name": "Chicken 65",
+                                                "description": "Spicy deep fried chicken tossed with curry leaves.",
+                                                "imageId": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec",
+                                                "price": 17900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "S2",
+                                                "name": "Gobi Manchurian",
+                                                "description": "Crispy cauliflower in Indo-Chinese sauce.",
+                                                "imageId": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7",
+                                                "price": 14900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Biryani",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "B1",
+                                                "name": "Mutton Biryani",
+                                                "description": "Slow cooked basmati rice with tender mutton pieces.",
+                                                "imageId": "https://images.unsplash.com/photo-1628294895950-9805252327bc",
+                                                "price": 29900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "B2",
+                                                "name": "Veg Biryani",
+                                                "description": "Flavorful vegetable biryani cooked with spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a",
+                                                "price": 18900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Meals",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "M1",
+                                                "name": "South Indian Meals",
+                                                "description": "Rice with sambar, rasam, poriyal and curd.",
+                                                "imageId": "https://images.unsplash.com/photo-1626776876729-bab4369d6c6d",
+                                                "price": 15900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "M2",
+                                                "name": "Chicken Meals",
+                                                "description": "Full meals with chicken curry and sides.",
+                                                "imageId": "https://images.unsplash.com/photo-1625944525909-6f8b55d1a2f1",
+                                                "price": 21900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Grills",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "G1",
+                                                "name": "Grilled Chicken",
+                                                "description": "Juicy grilled chicken marinated in spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1544025162-d76694265947",
+                                                "price": 22900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "G2",
+                                                "name": "Grilled Paneer",
+                                                "description": "Spicy grilled paneer cubes with herbs.",
+                                                "imageId": "https://images.unsplash.com/photo-1604908176997-431c3b21e4d7",
+                                                "price": 19900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Pizza",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "P1",
+                                                "name": "Veg Supreme Pizza",
+                                                "description": "Loaded with fresh vegetables and mozzarella cheese.",
+                                                "imageId": "https://images.unsplash.com/photo-1601924928584-9a6e70f5f1d4",
+                                                "price": 24900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "P2",
+                                                "name": "Chicken Pepperoni Pizza",
+                                                "description": "Cheesy pizza topped with chicken pepperoni.",
+                                                "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65",
+                                                "price": 27900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Desserts",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "D1",
+                                                "name": "Gulab Jamun",
+                                                "description": "Soft milk balls soaked in sugar syrup.",
+                                                "imageId": "https://images.unsplash.com/photo-1625944525909-6f8b55d1a2f1",
+                                                "price": 8900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "D2",
+                                                "name": "Chocolate Brownie",
+                                                "description": "Rich chocolate brownie served warm.",
+                                                "imageId": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c",
+                                                "price": 11900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "107",
+            "info": {
+                "id": "107",
+                "name": "BBQ Kingdom",
+                "cloudinaryImageId": "https://images.unsplash.com/photo-1504674900247-0877df9cc836",
+                "locality": "Porur",
+                "areaName": "Chennai",
+                "costForTwo": 65000,
+                "costForTwoMessage": "₹650 FOR TWO",
+                 "promoted":true,
+                "cuisines": [
+                    "BBQ",
+                    "Grills",
+                    "Biryani"
+                ],
+                "avgRating": 4.6,
+                "totalRatingsString": "11K+",
+                "sla": {
+                    "deliveryTime": 32,
+                    "lastMileTravel": 3.8,
+                    "slaString": "32 mins"
+                }
+            },
+            "menu": {
+                "cards": [
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Recommended",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "R1",
+                                                "name": "Special Chicken Biryani",
+                                                "description": "Chef special aromatic dum biryani with rich spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+                                                "price": 25900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "R2",
+                                                "name": "Paneer Butter Masala",
+                                                "description": "Creamy tomato gravy with soft paneer cubes.",
+                                                "imageId": "https://images.unsplash.com/photo-1601050690597-df0568f70950",
+                                                "price": 19900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Starters",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "S1",
+                                                "name": "Chicken 65",
+                                                "description": "Spicy deep fried chicken tossed with curry leaves.",
+                                                "imageId": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec",
+                                                "price": 17900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "S2",
+                                                "name": "Gobi Manchurian",
+                                                "description": "Crispy cauliflower in Indo-Chinese sauce.",
+                                                "imageId": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7",
+                                                "price": 14900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Biryani",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "B1",
+                                                "name": "Mutton Biryani",
+                                                "description": "Slow cooked basmati rice with tender mutton pieces.",
+                                                "imageId": "https://images.unsplash.com/photo-1628294895950-9805252327bc",
+                                                "price": 29900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "B2",
+                                                "name": "Veg Biryani",
+                                                "description": "Flavorful vegetable biryani cooked with spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a",
+                                                "price": 18900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Meals",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "M1",
+                                                "name": "South Indian Meals",
+                                                "description": "Rice with sambar, rasam, poriyal and curd.",
+                                                "imageId": "https://images.unsplash.com/photo-1626776876729-bab4369d6c6d",
+                                                "price": 15900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "M2",
+                                                "name": "Chicken Meals",
+                                                "description": "Full meals with chicken curry and sides.",
+                                                "imageId": "https://images.unsplash.com/photo-1625944525909-6f8b55d1a2f1",
+                                                "price": 21900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Grills",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "G1",
+                                                "name": "Grilled Chicken",
+                                                "description": "Juicy grilled chicken marinated in spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1544025162-d76694265947",
+                                                "price": 22900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "G2",
+                                                "name": "Grilled Paneer",
+                                                "description": "Spicy grilled paneer cubes with herbs.",
+                                                "imageId": "https://images.unsplash.com/photo-1604908176997-431c3b21e4d7",
+                                                "price": 19900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Pizza",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "P1",
+                                                "name": "Veg Supreme Pizza",
+                                                "description": "Loaded with fresh vegetables and mozzarella cheese.",
+                                                "imageId": "https://images.unsplash.com/photo-1601924928584-9a6e70f5f1d4",
+                                                "price": 24900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "P2",
+                                                "name": "Chicken Pepperoni Pizza",
+                                                "description": "Cheesy pizza topped with chicken pepperoni.",
+                                                "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65",
+                                                "price": 27900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Desserts",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "D1",
+                                                "name": "Gulab Jamun",
+                                                "description": "Soft milk balls soaked in sugar syrup.",
+                                                "imageId": "https://images.unsplash.com/photo-1625944525909-6f8b55d1a2f1",
+                                                "price": 8900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "D2",
+                                                "name": "Chocolate Brownie",
+                                                "description": "Rich chocolate brownie served warm.",
+                                                "imageId": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c",
+                                                "price": 11900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "108",
+            "info": {
+                "id": "108",
+                "name": "Veggie Paradise",
+                "cloudinaryImageId": "https://images.unsplash.com/photo-1498837167922-ddd27525d352",
+                "locality": "Mylapore",
+                "areaName": "Chennai",
+                "costForTwo": 38000,
+                "costForTwoMessage": "₹380 FOR TWO",
+                "cuisines": [
+                    "Pure Veg",
+                    "North Indian",
+                    "South Indian"
+                ],
+                "avgRating": 4.7,
+                "totalRatingsString": "13K+",
+                "sla": {
+                    "deliveryTime": 18,
+                    "lastMileTravel": 1.6,
+                    "slaString": "18 mins"
+                }
+            },
+            "menu": {
+                 "cards": [
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Recommended",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "R1",
+                                                "name": "Special Chicken Biryani",
+                                                "description": "Chef special aromatic dum biryani with rich spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+                                                "price": 25900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "R2",
+                                                "name": "Paneer Butter Masala",
+                                                "description": "Creamy tomato gravy with soft paneer cubes.",
+                                                "imageId": "https://images.unsplash.com/photo-1601050690597-df0568f70950",
+                                                "price": 19900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Starters",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "S1",
+                                                "name": "Chicken 65",
+                                                "description": "Spicy deep fried chicken tossed with curry leaves.",
+                                                "imageId": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec",
+                                                "price": 17900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "S2",
+                                                "name": "Gobi Manchurian",
+                                                "description": "Crispy cauliflower in Indo-Chinese sauce.",
+                                                "imageId": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7",
+                                                "price": 14900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Biryani",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "B1",
+                                                "name": "Mutton Biryani",
+                                                "description": "Slow cooked basmati rice with tender mutton pieces.",
+                                                "imageId": "https://images.unsplash.com/photo-1628294895950-9805252327bc",
+                                                "price": 29900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "B2",
+                                                "name": "Veg Biryani",
+                                                "description": "Flavorful vegetable biryani cooked with spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a",
+                                                "price": 18900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Meals",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "M1",
+                                                "name": "South Indian Meals",
+                                                "description": "Rice with sambar, rasam, poriyal and curd.",
+                                                "imageId": "https://images.unsplash.com/photo-1626776876729-bab4369d6c6d",
+                                                "price": 15900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "M2",
+                                                "name": "Chicken Meals",
+                                                "description": "Full meals with chicken curry and sides.",
+                                                "imageId": "https://images.unsplash.com/photo-1625944525909-6f8b55d1a2f1",
+                                                "price": 21900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Grills",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "G1",
+                                                "name": "Grilled Chicken",
+                                                "description": "Juicy grilled chicken marinated in spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1544025162-d76694265947",
+                                                "price": 22900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "G2",
+                                                "name": "Grilled Paneer",
+                                                "description": "Spicy grilled paneer cubes with herbs.",
+                                                "imageId": "https://images.unsplash.com/photo-1604908176997-431c3b21e4d7",
+                                                "price": 19900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Pizza",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "P1",
+                                                "name": "Veg Supreme Pizza",
+                                                "description": "Loaded with fresh vegetables and mozzarella cheese.",
+                                                "imageId": "https://images.unsplash.com/photo-1601924928584-9a6e70f5f1d4",
+                                                "price": 24900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "P2",
+                                                "name": "Chicken Pepperoni Pizza",
+                                                "description": "Cheesy pizza topped with chicken pepperoni.",
+                                                "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65",
+                                                "price": 27900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Desserts",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "D1",
+                                                "name": "Gulab Jamun",
+                                                "description": "Soft milk balls soaked in sugar syrup.",
+                                                "imageId": "https://images.unsplash.com/photo-1625944525909-6f8b55d1a2f1",
+                                                "price": 8900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "D2",
+                                                "name": "Chocolate Brownie",
+                                                "description": "Rich chocolate brownie served warm.",
+                                                "imageId": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c",
+                                                "price": 11900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "109",
+            "info": {
+                "id": "109",
+                "name": "Food Street Express",
+                "cloudinaryImageId": "https://images.unsplash.com/photo-1555992336-03a23c7b20ee",
+                "locality": "Velachery",
+                "areaName": "Chennai",
+                "costForTwo": 42000,
+                "costForTwoMessage": "₹420 FOR TWO",
+                "cuisines": [
+                    "Multi Cuisine",
+                    "Pizza",
+                    "Meals"
+                ],
+                "avgRating": 4.3,
+                "totalRatingsString": "6K+",
+                "sla": {
+                    "deliveryTime": 26,
+                    "lastMileTravel": 2.4,
+                    "slaString": "26 mins"
+                }
+            },
+            "menu": {
+              "cards": [
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Recommended",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "R1",
+                                                "name": "Special Chicken Biryani",
+                                                "description": "Chef special aromatic dum biryani with rich spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+                                                "price": 25900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "R2",
+                                                "name": "Paneer Butter Masala",
+                                                "description": "Creamy tomato gravy with soft paneer cubes.",
+                                                "imageId": "https://images.unsplash.com/photo-1601050690597-df0568f70950",
+                                                "price": 19900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Starters",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "S1",
+                                                "name": "Chicken 65",
+                                                "description": "Spicy deep fried chicken tossed with curry leaves.",
+                                                "imageId": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec",
+                                                "price": 17900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "S2",
+                                                "name": "Gobi Manchurian",
+                                                "description": "Crispy cauliflower in Indo-Chinese sauce.",
+                                                "imageId": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7",
+                                                "price": 14900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Biryani",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "B1",
+                                                "name": "Mutton Biryani",
+                                                "description": "Slow cooked basmati rice with tender mutton pieces.",
+                                                "imageId": "https://images.unsplash.com/photo-1628294895950-9805252327bc",
+                                                "price": 29900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "B2",
+                                                "name": "Veg Biryani",
+                                                "description": "Flavorful vegetable biryani cooked with spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a",
+                                                "price": 18900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Meals",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "M1",
+                                                "name": "South Indian Meals",
+                                                "description": "Rice with sambar, rasam, poriyal and curd.",
+                                                "imageId": "https://images.unsplash.com/photo-1626776876729-bab4369d6c6d",
+                                                "price": 15900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "M2",
+                                                "name": "Chicken Meals",
+                                                "description": "Full meals with chicken curry and sides.",
+                                                "imageId": "https://images.unsplash.com/photo-1625944525909-6f8b55d1a2f1",
+                                                "price": 21900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Grills",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "G1",
+                                                "name": "Grilled Chicken",
+                                                "description": "Juicy grilled chicken marinated in spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1544025162-d76694265947",
+                                                "price": 22900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "G2",
+                                                "name": "Grilled Paneer",
+                                                "description": "Spicy grilled paneer cubes with herbs.",
+                                                "imageId": "https://images.unsplash.com/photo-1604908176997-431c3b21e4d7",
+                                                "price": 19900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Pizza",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "P1",
+                                                "name": "Veg Supreme Pizza",
+                                                "description": "Loaded with fresh vegetables and mozzarella cheese.",
+                                                "imageId": "https://images.unsplash.com/photo-1601924928584-9a6e70f5f1d4",
+                                                "price": 24900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "P2",
+                                                "name": "Chicken Pepperoni Pizza",
+                                                "description": "Cheesy pizza topped with chicken pepperoni.",
+                                                "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65",
+                                                "price": 27900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Desserts",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "D1",
+                                                "name": "Gulab Jamun",
+                                                "description": "Soft milk balls soaked in sugar syrup.",
+                                                "imageId": "https://images.unsplash.com/photo-1625944525909-6f8b55d1a2f1",
+                                                "price": 8900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "D2",
+                                                "name": "Chocolate Brownie",
+                                                "description": "Rich chocolate brownie served warm.",
+                                                "imageId": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c",
+                                                "price": 11900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "id": "110",
+            "info": {
+                "id": "110",
+                "name": "Dessert & Dine",
+                "cloudinaryImageId": "https://images.unsplash.com/photo-1551024506-0bccd828d307",
+                "locality": "Guindy",
+                "areaName": "Chennai",
+                "costForTwo": 30000,
+                "costForTwoMessage": "₹300 FOR TWO",
+                 "promoted":true,
+                "cuisines": [
+                    "Desserts",
+                    "Bakery",
+                    "Fast Food"
+                ],
+                "avgRating": 4.8,
+                "totalRatingsString": "15K+",
+                "sla": {
+                    "deliveryTime": 20,
+                    "lastMileTravel": 1.8,
+                    "slaString": "20 mins"
+                }
+            },
+            "menu": {
+                 "cards": [
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Recommended",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "R1",
+                                                "name": "Special Chicken Biryani",
+                                                "description": "Chef special aromatic dum biryani with rich spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398",
+                                                "price": 25900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "R2",
+                                                "name": "Paneer Butter Masala",
+                                                "description": "Creamy tomato gravy with soft paneer cubes.",
+                                                "imageId": "https://images.unsplash.com/photo-1601050690597-df0568f70950",
+                                                "price": 19900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Starters",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "S1",
+                                                "name": "Chicken 65",
+                                                "description": "Spicy deep fried chicken tossed with curry leaves.",
+                                                "imageId": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec",
+                                                "price": 17900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "S2",
+                                                "name": "Gobi Manchurian",
+                                                "description": "Crispy cauliflower in Indo-Chinese sauce.",
+                                                "imageId": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7",
+                                                "price": 14900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Biryani",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "B1",
+                                                "name": "Mutton Biryani",
+                                                "description": "Slow cooked basmati rice with tender mutton pieces.",
+                                                "imageId": "https://images.unsplash.com/photo-1628294895950-9805252327bc",
+                                                "price": 29900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "B2",
+                                                "name": "Veg Biryani",
+                                                "description": "Flavorful vegetable biryani cooked with spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a",
+                                                "price": 18900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Meals",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "M1",
+                                                "name": "South Indian Meals",
+                                                "description": "Rice with sambar, rasam, poriyal and curd.",
+                                                "imageId": "https://images.unsplash.com/photo-1626776876729-bab4369d6c6d",
+                                                "price": 15900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "M2",
+                                                "name": "Chicken Meals",
+                                                "description": "Full meals with chicken curry and sides.",
+                                                "imageId": "https://images.unsplash.com/photo-1625944525909-6f8b55d1a2f1",
+                                                "price": 21900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Grills",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "G1",
+                                                "name": "Grilled Chicken",
+                                                "description": "Juicy grilled chicken marinated in spices.",
+                                                "imageId": "https://images.unsplash.com/photo-1544025162-d76694265947",
+                                                "price": 22900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "G2",
+                                                "name": "Grilled Paneer",
+                                                "description": "Spicy grilled paneer cubes with herbs.",
+                                                "imageId": "https://images.unsplash.com/photo-1604908176997-431c3b21e4d7",
+                                                "price": 19900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Pizza",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "P1",
+                                                "name": "Veg Supreme Pizza",
+                                                "description": "Loaded with fresh vegetables and mozzarella cheese.",
+                                                "imageId": "https://images.unsplash.com/photo-1601924928584-9a6e70f5f1d4",
+                                                "price": 24900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "P2",
+                                                "name": "Chicken Pepperoni Pizza",
+                                                "description": "Cheesy pizza topped with chicken pepperoni.",
+                                                "imageId": "https://images.unsplash.com/photo-1594007654729-407eedc4be65",
+                                                "price": 27900,
+                                                "isVeg": 0
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "card": {
+                            "card": {
+                                "title": "Desserts",
+                                "itemCards": [
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "D1",
+                                                "name": "Gulab Jamun",
+                                                "description": "Soft milk balls soaked in sugar syrup.",
+                                                "imageId": "https://images.unsplash.com/photo-1625944525909-6f8b55d1a2f1",
+                                                "price": 8900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "card": {
+                                            "info": {
+                                                "id": "D2",
+                                                "name": "Chocolate Brownie",
+                                                "description": "Rich chocolate brownie served warm.",
+                                                "imageId": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c",
+                                                "price": 11900,
+                                                "isVeg": 1
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
